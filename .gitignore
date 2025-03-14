@@ -1,0 +1,33 @@
+# Ignore build artifacts
+build/
+*.o
+*.a
+*.out
+*.exe
+*.dSYM/
+*.dmp
+*.log
+
+# Ignore compiled binaries
+game
+
+# Ignore macOS system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*~
+*#
+
+# Ignore SDL2 dependency folders (if applicable)
+/libSDL2.dylib
+
+# Ignore other non-essential files (like test files, debugging logs)
+*.bak
+*.tmp
